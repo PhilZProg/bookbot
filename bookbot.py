@@ -12,7 +12,7 @@ def get_book_text(path):
 
 def usage():
     if len(sys.argv) != 2:
-        print(f"Usage: python3 main.py <path_to_book>")
+        print(f"Usage: bookbot.py <path_to_book>")
         sys.exit(1)
 
 
